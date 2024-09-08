@@ -9,7 +9,14 @@ Gaussian random fields and synthetic datasets are generated using the FFTMA algo
 
 Additionally, `importfile.m` and `imagesc3d.m` are functions designed to import and plot the X-Ray dataset (Example 5).
 
-
+The following scripts execute all the required code to generate the figures shown in the manuscript, along with additional outputs:
+- `E1_GaussianCase.m`
+- `E2_Dunes.m`
+- `E3A_AsymmetryFieldDir.m`
+- `E3B_AsymmetryFieldRank.m`
+- `E4_Chloride.m`
+- `E5_Xrays.m`
+  
 ## PROGRAMS
 
 ### `GeoStatFFT.m`
