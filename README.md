@@ -16,6 +16,8 @@ The following scripts execute all the required code to generate the figures show
 - `E3B_AsymmetryFieldRank.m`
 - `E4_Chloride.m`
 - `E5_Xrays.m`
+
+The scripts `Time_GeoStatFFT.m` and `Time_Spatial_Spectral.m` perform time comparisons between several spatial statistics using the FFT method and a spatial program (`varioexp2d.m`), respectively.
   
 ## PROGRAMS
 
