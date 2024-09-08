@@ -3,7 +3,12 @@
 This repository contains the computer codes associated with the manuscript: *Efficient Computation on Large Regular Grids of Higher-Order Spatial Statistics via Fast Fourier Transform*.
 
 ### Example
-The folder `Example` contains all the code related to the results presented in the manuscript, organized by result number.
+The folder `Example` contains all the code related to the results presented in the manuscript, organized by number. Figures from the manuscript are stored in `.eps` format in their respective folders, and datasets are also included.
+
+Gaussian random fields and synthetic datasets are generated using the FFTMA algorithm provided in this folder. The script `covar.m` is used to generate the covariance matrix, while `grille2.m` and `grille3.m` create 2D and 3D grids, respectively. The function `ECDF.m` computes the empirical cumulative distribution using ranking.
+
+Additionally, `importfile.m` and `imagesc3d.m` are functions designed to import and plot the X-Ray dataset (Example 5).
+
 
 ## PROGRAMS
 
