@@ -2,6 +2,17 @@
 
 This repository contains the computer codes associated with the manuscript: *Efficient Computation on Large Regular Grids of Higher-Order Spatial Statistics via Fast Fourier Transform*.
 
+### MATLAB Live Script
+We provide MATLAB Live Scripts that explain all the examples in detail and produce the figures displayed in the manuscript. The MATLAB Live Scripts need to be run in the same folder where the code is located. Codes are included in the example files. 
+The following Live Scripts execute all the required code to generate the figures shown in the manuscript, along with additional outputs:
+- `E1_GaussianCase.mlx` : 4.1. Synthetic Gaussian Fields
+- `E2_Dunes.mlx` : 4.2. Dunes Dataset
+- `E3A_AsymmetryFieldDir.mlx` : 4.3. Synthetic Non-Gaussian Fields
+- `E3B_AsymmetryFieldRank.mlx` : 4.3. Synthetic Non-Gaussian Fields
+- `E4_Chloride.mlx` : 4.4. Chloride concentrations in Baden-Wuerttemberg
+- `E5_Xrays.mlx` : 4.5. X-ray absorption measurements of a soil column
+- `E6_RhineRiver.mlx` : 4.6. One-dimensional example: Time-series analysis
+
 ### Example
 The folder `Example` contains all the code related to the results presented in the manuscript, organized by number. Figures from the manuscript are stored in `.eps` format in their respective folders, and datasets are also included.
 
@@ -10,13 +21,14 @@ Gaussian random fields and synthetic datasets are generated using the FFTMA algo
 Additionally, `importfile.m` and `imagesc3d.m` are functions designed to import and plot the X-Ray dataset (Example 5).
 
 The following scripts execute all the required code to generate the figures shown in the manuscript, along with additional outputs:
-- `E1_GaussianCase.m`
-- `E2_Dunes.m`
-- `E3A_AsymmetryFieldDir.m`
-- `E3B_AsymmetryFieldRank.m`
-- `E4_Chloride.m`
-- `E5_Xrays.m`
-
+- `E1_GaussianCase.m` : 4.1. Synthetic Gaussian Fields
+- `E2_Dunes.m` : 4.2. Dunes Dataset
+- `E3A_AsymmetryFieldDir.m` : 4.3. Synthetic Non-Gaussian Fields
+- `E3B_AsymmetryFieldRank.m` : 4.3. Synthetic Non-Gaussian Fields
+- `E4_Chloride.m` : 4.4. Chloride concentrations in Baden-Wuerttemberg
+- `E5_Xrays.m` : 4.5. X-ray absorption measurements of a soil column
+- `E6_.RhineRiverm` : 4.6. One-dimensional example: Time-series analysis
+  
 The scripts `Time_GeoStatFFT.m` and `Time_Spatial_Spectral.m` perform time comparisons between several spatial statistics using the FFT method and a spatial program (`varioexp2d.m`), respectively.
   
 ## PROGRAMS
